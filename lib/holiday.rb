@@ -50,6 +50,7 @@ def add_new_holiday_with_supplies(holiday_hash, season, holiday_name, supply_arr
   #code here
   #new_hash = {}
   holiday_hash[:season][:holiday_name]
+  holiday_hash
   binding.pry
   #holiday_hash
 end
