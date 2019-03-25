@@ -91,7 +91,7 @@ end
 
 #season = :summer  
 #holiday  = {:fourth_of_july=>["Fireworks", "BBQ"]}
-#holidays = :christmas 
+#holidays = 
 #items = ["Lights", "Wreath"]
 
 def all_holidays_with_bbq(holiday_hash)
