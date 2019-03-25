@@ -67,7 +67,8 @@ def all_winter_holiday_supplies(holiday_hash)
   all_items
 end
 
-#
+#season = :winter
+# holidays = {:christmas=>["Lights", "Wreath"], :new_years=>["Party Hats"]}
 
 def all_supplies_in_holidays(holiday_hash)
   # iterate through holiday_hash and print items such that your readout resembles:
@@ -78,6 +79,7 @@ def all_supplies_in_holidays(holiday_hash)
   #   Fourth Of July: Fireworks, BBQ
   # etc.
   holiday_hash.collect do |season, holidays|
+    puts 
     
     binding.pry
   end 
