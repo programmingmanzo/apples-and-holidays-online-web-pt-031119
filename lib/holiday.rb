@@ -69,6 +69,7 @@ end
 
 #season = :winter
 # holidays = {:christmas=>["Lights", "Wreath"], :new_years=>["Party Hats"]}
+#
 
 def all_supplies_in_holidays(holiday_hash)
   # iterate through holiday_hash and print items such that your readout resembles:
@@ -82,7 +83,7 @@ def all_supplies_in_holidays(holiday_hash)
     puts "#{season.capitalize}:"
     holiday.collect do |holidays, items|
       puts "  #{holidays.to_s.gsub("_", " ").split.collect(&:capitalize).join(' ')}: #{items.join(", ")}"
-      #binding.pry 
+      binding.pry 
     end
   end 
 end
@@ -90,6 +91,7 @@ end
 def all_holidays_with_bbq(holiday_hash)
   # return an array of holiday names (as symbols) where supply lists
   # include the string "BBQ"
+  
 
 end
 
