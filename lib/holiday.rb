@@ -64,6 +64,7 @@ def all_winter_holiday_supplies(holiday_hash)
     end
   end
   # return an array of all of the supplies that are used in the winter season
+  all_items
 end
 
 def all_supplies_in_holidays(holiday_hash)
