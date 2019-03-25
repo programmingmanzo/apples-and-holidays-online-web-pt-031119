@@ -59,7 +59,7 @@ def all_winter_holiday_supplies(holiday_hash)
     supply.each do |items|
       if holiday_hash[:winter][items] != nil 
         all_items.concat(holiday_hash[:winter][items])
-        binding.pry
+        #binding.pry
       end
     end
   end
