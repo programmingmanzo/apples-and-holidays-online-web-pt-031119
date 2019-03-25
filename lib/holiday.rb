@@ -68,7 +68,7 @@ def all_winter_holiday_supplies(holiday_hash)
 end
 
 #season = :winter
-# holidays = {:christmas=>["Lights", "Wreath"], :new_years=>["Party Hats"]}
+# holiday = {:christmas=>["Lights", "Wreath"], :new_years=>["Party Hats"]}
 #
 
 def all_supplies_in_holidays(holiday_hash)
