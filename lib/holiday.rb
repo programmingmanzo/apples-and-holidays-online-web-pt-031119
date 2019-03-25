@@ -92,7 +92,7 @@ end
 #season = :summer  
 #holiday  = {:fourth_of_july=>["Fireworks", "BBQ"]}
 #holidays = :fourth_of_july
-#items = 
+#items = ["Fireworks", "BBQ"]
 
 def all_holidays_with_bbq(holiday_hash)
   # return an array of holiday names (as symbols) where supply lists
