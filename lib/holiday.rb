@@ -90,7 +90,7 @@ def all_supplies_in_holidays(holiday_hash)
 end
 
 #season = :winter 
-#holiday  = 
+#holiday  = {:fourth_of_july=>["Fireworks", "BBQ"]}
 #holidays = :christmas 
 #items = ["Lights", "Wreath"]
 
