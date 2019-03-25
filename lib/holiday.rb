@@ -59,6 +59,7 @@ def all_winter_holiday_supplies(holiday_hash)
     supply.each do |item|
       if holiday_hash[:winter][items] != nil 
         all_items.contact(holiday_hash[:winter][items])
+        
       end
       binding.pry
     end
